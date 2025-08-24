@@ -11,6 +11,10 @@ and running the game using the [`fceux`](https://fceux.com/web/home.html) emulat
 ./build.sh
 ```
 
+Right now the only input we handle is arrow keys up/down to move the text - and yes the text will move while blinked off for now.
+Just a proof of concept for input from the hardware, in the future we will design an event system to keep track of what screen
+the player is interacting with.
+
 # Development Dependencies
 
 You will need a C compiler for 6502 family microprocessors on your PATH.
